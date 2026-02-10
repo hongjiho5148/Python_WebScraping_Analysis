@@ -9,6 +9,6 @@ flush privileges;
 select user, host from user;
 exit;
 
-mysql -u python -p
+mysql -u python -p (password = python)
 show grants for current_user;
 use python_db;
